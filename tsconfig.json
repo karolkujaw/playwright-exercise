@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["esnext", "dom", "DOM.Iterable"],
+    "esModuleInterop": true,
+    "strict": true,
+    "allowJs": true,
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "noEmit": true,
+  },
+  "compileOnSave": true,
+  "include": ["test/*.ts", "src/**/*.tsx", "src/**/*.js", "src/server/deviceDescriptorsSource.json"],
+  "exclude": ["node_modules", "src/.eslintrc.js", "src/**/*webpack.config.js"]
+}
